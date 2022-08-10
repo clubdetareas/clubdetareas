@@ -1,0 +1,173 @@
+body{
+    font-family:'Raleway';
+    background: #f1f1f1;
+}
+p{
+    padding: 0px;
+    margin: 0px;
+}
+.contenedor{
+    height: 200px;
+}
+
+/* @keyframes es la palabra reservada
+MiAnimacion es el nombre q yo asigno */
+
+
+@keyframes primera{
+    0%{opacity: 0;}
+    25%{opacity: 0.5;}
+    50%{opacity: 1;}
+    75%{opacity: 0.5;}
+    100%{opacity: 0;}
+}
+.primera{
+    background: linear-gradient(217deg, rgba(15, 100, 237, 0.8), rgba(36, 236, 243, 0.807) 70.71%);
+    width: 20px;  
+    height: 20px;
+    border-radius: 25%;
+    animation: primera 5s ease infinite;  
+}
+
+.sola1{
+    background-color: #f82cee;
+    width: 20px;  
+    height: 20px;
+    border-radius:50%;
+    animation: sola 4.5s ease infinite;
+}@keyframes sola{
+    0%{background: #d62cf8;opacity: 0.5}
+    25%{background: #de8509;opacity: 0.5 }
+    50%{background: #e20a6f;opacity: 1}
+    75%{background: #793ceb;opacity: 0.5}
+    100%{background: #f2530f;opacity: 0.5}
+    }
+
+
+@keyframes segunda{
+    0%{opacity: 1;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0;}
+    75%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+.segunda{
+    background: linear-gradient(237deg, rgba(16, 175, 4, 0.8), rgba(81, 248, 76, 0.807) 90.71%);
+    width: 20px;  
+    height: 20px;
+    border-radius:50%;
+    animation: segunda 7s ease infinite; 
+}
+
+@keyframes tercera{
+    0%{opacity: 1;}
+    25%{opacity: 0.5;}
+    50%{opacity: 0;}
+    75%{opacity: 0.5;}
+    100%{opacity: 1;}
+}
+.tercera{
+    background: linear-gradient(237deg, rgba(232, 235, 24, 0.8), rgba(243, 129, 48, 0.807) 90.71%);
+    width: 20px;  
+    height: 20px;
+    border-radius: 15px 20px 35px 10px;
+    animation: segunda 9s ease infinite; 
+}
+
+
+@keyframes cuarta{
+    0%{opacity: 0.5;}
+    25%{opacity: 0.8;}
+    50%{opacity: 1;}
+    75%{opacity: 0.8;}
+    100%{opacity: 0.5;}
+}
+.cuarta{
+    background: linear-gradient(237deg, rgba(43, 20, 221, 0.8), rgba(200, 26, 226, 0.807) 90.71%);
+    width: 20px;  
+    height: 20px;
+    border-radius: 25px 0px 15px 15px;
+    animation: segunda 9s ease infinite; 
+}
+ img{
+    border-bottom: solid 1.5px #e20a6f;
+    
+}
+
+.inscripciones{
+    height: 80px;
+    width: 200px;;
+    background: #fef6e0;
+    border-radius: 15px;
+    color:  #f3c74f;
+}
+.inscripciones:hover{    
+    background: #f3c74f;
+    border-radius: 15px; 
+    color: #fff;   
+}
+.horario{
+    font-size: 12px;
+}
+
+.actividades{
+    height: 80px;
+    width: 200px;
+    background: #b67ff5;
+    border-radius: 15px;
+    color:  #8334eb;
+}
+.actividades:hover{    
+    background: #8334eb;
+    border-radius: 15px; 
+    color: #fff;   
+}
+
+.galeria{
+    height: 80px;
+    width: 200px;
+    background: #f474d8;
+    border-radius: 15px;
+    color:  #ba058d;
+}
+.galeria:hover{
+    background: #ba058d;
+    border-radius: 15px; 
+    color: #fff;   
+}
+
+
+.contacto{
+    height: 80px;
+    width: 200px;
+    background: #74f4cc;
+    border-radius: 15px;
+    color:  #07963b;
+}
+.contacto:hover{
+    background: #07963b;
+    border-radius: 15px; 
+    color: #fff;   
+}
+
+
+div .bi-pencil-square,
+.bi-sliders,
+.bi-columns-gap,
+.bi-whatsapp{
+    font-size: 50px;
+}
+
+/* background-repeat: no-repeat; */   
+   /* background-size: cover; */
+   /* position: relative;
+   margin: auto; */
+   /* animation: opacidad 8s 15s infinite; */   
+   /* background:url('../img/logo1.png');  */
+   /* height: 100vh; */   
+   /* La animación puede llevar 2, 3, 4 o 5 parámetros:
+   1. El nombre asignado al @keyframes
+   2. Y el tiempo de la animación 
+   3. La velocidad de la transición (ease, linear, etc)
+   4. Un delete q retrase la animación y no cuando cargué la página
+   5. valor infinite, ,para que no pare la animación */
