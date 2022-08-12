@@ -1,6 +1,6 @@
 body{
     font-family:'Raleway';
-    background: #f1f1f1;
+    /* background: #f1f1f1; */
 }
 p{
     padding: 0px;
@@ -90,13 +90,15 @@ MiAnimacion es el nombre q yo asigno */
     animation: segunda 9s ease infinite; 
 }
  img{
+    border-top: solid 1.5px #d3c20c;
     border-bottom: solid 1.5px #e20a6f;
-    
+    border-left: solid 1.5px #a606c6;
+    border-right: solid 1.5px #45b306; 
 }
 
 .inscripciones{
     height: 80px;
-    width: 200px;;
+    width: 220px;
     background: #fef6e0;
     border-radius: 15px;
     color:  #f3c74f;
@@ -112,7 +114,7 @@ MiAnimacion es el nombre q yo asigno */
 
 .actividades{
     height: 80px;
-    width: 200px;
+    width: 220px;
     background: #b67ff5;
     border-radius: 15px;
     color:  #8334eb;
@@ -125,7 +127,7 @@ MiAnimacion es el nombre q yo asigno */
 
 .galeria{
     height: 80px;
-    width: 200px;
+    width: 220px;
     background: #f474d8;
     border-radius: 15px;
     color:  #ba058d;
@@ -136,10 +138,9 @@ MiAnimacion es el nombre q yo asigno */
     color: #fff;   
 }
 
-
 .contacto{
     height: 80px;
-    width: 200px;
+    width: 220px;
     background: #74f4cc;
     border-radius: 15px;
     color:  #07963b;
@@ -150,7 +151,6 @@ MiAnimacion es el nombre q yo asigno */
     color: #fff;   
 }
 
-
 div .bi-pencil-square,
 .bi-sliders,
 .bi-columns-gap,
@@ -158,16 +158,29 @@ div .bi-pencil-square,
     font-size: 50px;
 }
 
-/* background-repeat: no-repeat; */   
-   /* background-size: cover; */
-   /* position: relative;
-   margin: auto; */
-   /* animation: opacidad 8s 15s infinite; */   
-   /* background:url('../img/logo1.png');  */
-   /* height: 100vh; */   
-   /* La animación puede llevar 2, 3, 4 o 5 parámetros:
-   1. El nombre asignado al @keyframes
-   2. Y el tiempo de la animación 
-   3. La velocidad de la transición (ease, linear, etc)
-   4. Un delete q retrase la animación y no cuando cargué la página
-   5. valor infinite, ,para que no pare la animación */
+.apoyo{
+    font-family: 'Rubik Dirt', cursive;
+    font-size: 35px;
+    text-shadow: 5px 3px 5px #4eeaab;
+}
+.correccion{
+    font-family: 'DynaPuff', cursive;
+    font-size: 35px;
+    text-shadow: 5px 3px 5px #ee57f3;
+}
+.desarrollo{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 40px;
+    text-shadow: 2px 2px 2px #5d3804;
+}
+.reforzamiento{
+    font-family: 'Carter One';
+    font-size: 40px;
+    text-shadow: 5px 2px 2px #182ed6;
+}
+.lista{
+    background: #fff;
+}
+.footer{
+    background: linear-gradient(217deg, rgba(12, 209, 98, 0.8), rgba(78, 40, 175, 0.807) 70.71%);
+}
